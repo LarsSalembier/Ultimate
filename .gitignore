@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# VSCode stuff
+.vs/*
+
+# binaries
+binaries/*
+
+# binary intermediates
+binary-intermediates/*
+
