@@ -24,9 +24,18 @@
     <ClInclude Include="src\Ultimate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Ultimate\EntryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ultimate\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Ultimate\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ultimate\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
