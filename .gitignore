@@ -1,7 +1,10 @@
 # Directories
 .vs/
-binaries/
-binary-intermediates/
+bin/
+bin-int/
 
 # Files
-*.user
+Ultimate.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
