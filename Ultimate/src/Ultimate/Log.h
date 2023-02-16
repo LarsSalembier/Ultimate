@@ -28,7 +28,7 @@ namespace Ultimate {
 #define ULT_CORE_INFO(...) ::Ultimate::Log::GetCoreLogger()->info(__VA_ARGS__)
 #define ULT_CORE_WARN(...) ::Ultimate::Log::GetCoreLogger()->warn(__VA_ARGS__)
 #define ULT_CORE_ERROR(...) ::Ultimate::Log::GetCoreLogger()->error(__VA_ARGS__)
-#define ULT_CORE_FATAL(...) ::Ultimate::Log::GetCoreLogger()->fatal(__VA_ARGS__)
+#define ULT_CORE_CRITICAL(...) ::Ultimate::Log::GetCoreLogger()->critical(__VA_ARGS__)
 
 // Client log macros
 #define ULT_ERROR(...)::Ultimate::Log::GetClientLogger()->error(__VA_ARGS__)
@@ -36,4 +36,4 @@ namespace Ultimate {
 #define ULT_INFO(...) ::Ultimate::Log::GetClientLogger()->info(__VA_ARGS__)
 #define ULT_WARN(...) ::Ultimate::Log::GetClientLogger()->warn(__VA_ARGS__)
 #define ULT_ERROR(...) ::Ultimate::Log::GetClientLogger()->error(__VA_ARGS__)
-#define ULT_FATAL(...) ::Ultimate::Log::GetClientLogger()->fatal(__VA_ARGS__)
+#define ULT_CRITICAL(...) ::Ultimate::Log::GetClientLogger()->critical(__VA_ARGS__)
