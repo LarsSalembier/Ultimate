@@ -2,7 +2,7 @@
 Ultimate Game Engine
 
 ## Setup project
-After cloning this repo, you can setup this project by running the program `GenerateProject.bat`. This will generate the following files:
+After cloning this repo, you can setup this project by running the program `GenerateProject.bat`. This will run Premake, which will generate the following files:
 - `Ultimate.sln`
 - `Sandbox/Sandbox.vcxproj`
 - `Sandbox/Sandbox.vcxproj.filters`
