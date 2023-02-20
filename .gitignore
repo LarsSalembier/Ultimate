@@ -4,9 +4,7 @@ bin/
 bin-int/
 
 # Files
-Ultimate.sln
+/Ultimate.sln
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
-/Sandbox/Sandbox.vcxproj
-/Ultimate.sln
