@@ -8,3 +8,5 @@ Ultimate.sln
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
+/Sandbox/Sandbox.vcxproj
+/Ultimate.sln
