@@ -8,7 +8,6 @@ workspace "Ultimate"
 		"Dist"
 	}
 
-
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 project "Ultimate"
@@ -27,6 +26,7 @@ project "Ultimate"
 
 	includedirs
 	{
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 

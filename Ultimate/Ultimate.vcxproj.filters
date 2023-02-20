@@ -4,6 +4,9 @@
     <Filter Include="Ultimate">
       <UniqueIdentifier>{4A81607D-364E-BB88-5F67-A9304B93F016}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Ultimate\Events">
+      <UniqueIdentifier>{EE9522F4-5A21-90B8-6332-13ADCF3CECB8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Ultimate.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Ultimate\EntryPoint.h">
       <Filter>Ultimate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ultimate\Events\ApplicationEvent.h">
+      <Filter>Ultimate\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ultimate\Events\Event.h">
+      <Filter>Ultimate\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ultimate\Events\KeyEvent.h">
+      <Filter>Ultimate\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ultimate\Events\MouseEvent.h">
+      <Filter>Ultimate\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Ultimate\Log.h">
       <Filter>Ultimate</Filter>
